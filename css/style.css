@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,800;1,300&family=Work+Sans:wght@100;400&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-img{
+  width: 100vw;
+}
+
+.card{
+  width: 34em;
+  height: 29em;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  border-radius: 3%;
+  box-shadow: 1px 0px 15px #484848;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.header{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.faq{
+  margin-left: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight:bolder;
+  font-size:50px;
+  color: rgb(23, 23, 23);
+}
+
+.content{
+    margin-left: 20px;
+}
+
+.que{
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  margin-top: 3em;
+  padding: 5px;
+}
+
+p{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+p:hover{
+  cursor: pointer;
+  color: rgb(189, 23, 245);
+}
+
+.plus{
+  height: 25px;
+  cursor: pointer;
+}
+
+.para1, .para2, .para3, .para4{
+  font-size: 14px ;
+  color:grey;
+  text-align: start;
+  padding:5px;
+  width:32em;
+}
