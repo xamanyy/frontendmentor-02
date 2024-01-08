@@ -19,7 +19,7 @@
 
 .card{
   width: 34em;
-  height: 29em;
+  height: 30em;
   background-color: white;
   position: absolute;
   top: 20%;
@@ -52,7 +52,7 @@
   display: flex;
   /* justify-content: space-evenly; */
   align-items: center;
-  margin-top: 3em;
+  margin-top: 2em;
   padding: 5px;
 }
 
@@ -75,9 +75,52 @@ p:hover{
 }
 
 .para1, .para2, .para3, .para4{
-  font-size: 14px ;
+  font-size: 12px ;
+  width: 100%;
   color:grey;
   text-align: start;
   padding:5px;
   width:32em;
+}
+
+
+/* For Mobile Devices */
+
+@media (max-width:767px){
+    .card{
+        width: 25em;
+        height: 26em;
+        background-color: white;
+        position: absolute;
+        top: 12%;
+        border-radius: 3%;
+        box-shadow: 1px 0px 15px #484848;
+        transition: width 0.5s ease;
+        transition: height 0.5s ease
+      }
+
+      .que{
+        display: flex;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        margin-top: 1.2em;
+        padding: 5px;
+      }
+
+      p{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        text-align: center;
+        margin-right: 10px;
+      }
+
+      .para1, .para2, .para3, .para4{
+        font-size: 10px ;
+        color:grey;
+        text-align: start;
+        padding:5px;
+        width:32em;
+      }
+      
 }
